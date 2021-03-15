@@ -15,6 +15,7 @@
 	align-items: baseline;
 }
 .menu_Mobile {
+	opacity: 0;
 	width: 90%;
 	display: flex;
 	border-radius: 5px;
@@ -22,8 +23,7 @@
 	justify-content: center;
 	text-align: center;
 	height: 0%;
-	/* overflow: hidden; */
-	animation: fadeIn 0.3s ease-in-out forwards;
+	animation: fadeIn 0.5s ease-in-out forwards;
 	transform-origin: 50% 0;
 }
 .menu_Mobile ul {
@@ -43,12 +43,14 @@
 }
 
 @keyframes fadeIn {
-	from {
-		/* opacity: 0; */
+	0% {
 		height: 0;
 	}
-	to {
-		/* opacity: 1; */
+	99% {
+		height: 100%;
+	}
+	100% {
+		opacity: 1;
 		height: 100%;
 	}
 }
