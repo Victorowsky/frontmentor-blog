@@ -8,10 +8,10 @@
 	padding: 0;
 }
 
-.footerColumn li {
+.footerColumn ul li {
 	cursor: pointer;
 	padding: 5px 0;
-	min-width: 100px;
+	width: 50px;
 }
 .footerColumn li:hover {
 	font-weight: 500;
