@@ -1,7 +1,6 @@
 import "./FooterColumn.css"
 const FooterColumn = ({type, list}) => {
 
-    console.log(list);
     const createList = list.map(item=>{
         return (<li key={item}>{item}</li>)
     })
