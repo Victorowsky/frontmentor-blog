@@ -1,5 +1,6 @@
 .footer {
-	height: 40vh;
+	height: fit-content;
+	min-height: 40vh;
 	background-color: #24242c;
 	border-radius: 0 100px 0 0;
 }
